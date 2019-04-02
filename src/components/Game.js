@@ -28,7 +28,7 @@ class Game extends Component {
         }
         else{
             imageArray.push(randomNumber);
-            return "%PUBLIC_URL%/us-flags/"+randomNumber+".png";
+            return "/us-flags/"+randomNumber+".png";
         }
     }
     changeImages = () =>{
