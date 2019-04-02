@@ -28,7 +28,7 @@ class Game extends Component {
         }
         else{
             imageArray.push(randomNumber);
-            return "/us-flags/"+randomNumber+".png";
+            return "/react-clicky-game/us-flags/"+randomNumber+".png";
         }
     }
     changeImages = () =>{
