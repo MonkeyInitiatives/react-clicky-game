@@ -25,5 +25,6 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage": "http://monkeyinitiatives.com/react-clicky-game/"
+  "homepage": "http://monkeyinitiatives.com/react-clicky-game/",
+  "proxy": "http://monkeyinitiatives.com/react-clicky-game/"
 }
