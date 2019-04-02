@@ -5,7 +5,7 @@ class Navbar extends Component {
         return(
             <div>
                 <nav className="navbar navbar-dark bg-primary">
-                    <a className="navbar-brand" href="/">Clicky Game</a>
+                    <a className="navbar-brand" href="/react-clicky-game">Clicky Game</a>
                     <span className="navbar-brand">
                         Click an image to begin!
                     </span>
