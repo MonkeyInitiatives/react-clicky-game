@@ -38,7 +38,8 @@ class Game extends Component {
             images: {
                 height: "150px",
                 width: "150px",
-                margin: "8px 25px",
+                margin: "8px 8px",
+                padding: "0px",
                 display: "block",
                 backgroundImage: 'url(' + this.randomImage() + ')',
                 backgroundSize: "contain",
