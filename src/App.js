@@ -7,7 +7,7 @@ import Game from './components/Game';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <Navbar />
         <Header />
         <Game />

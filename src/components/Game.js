@@ -15,7 +15,7 @@ const styles = {
         paddingRight: "0px",
         display: "flex",
         flexWrap: "wrap",
-        margin: "0",
+        margin: "0 auto",
         justifyContent: "center",
     }
 };
@@ -103,33 +103,33 @@ class Game extends Component {
         return (
             <main className="container" id="gameBoard" style={styles.container}>
                 <div className="row" id="row1">
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
                 </div>
                 <div className="row" id="row2">
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
                 </div>
                 <div className="row" id="row3">
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
-                    <div role="img" aria-label="click item" className="click-item" style={this.changeImages()} onClick={this.imageClicked}>
+                    <div role="img" aria-label="click item" className="click-item .col-*" style={this.changeImages()} onClick={this.imageClicked}>
                     </div>
                 </div>
             </main>
