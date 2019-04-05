@@ -3,8 +3,8 @@ import React from 'react';
 const styles = {
     jumbotron: {
         textAlign: "center",
-        color: "white",
-        backgroundImage: "url('https://media.graytvinc.com/images/810*455/American+Flag44.jpg')"
+        color: "black",
+        backgroundImage: "url('http://standardflags.com/shop/wp-content/uploads/2013/01/Nylon-American-Flag-closeup-1.jpg')"
       }
   };
 
