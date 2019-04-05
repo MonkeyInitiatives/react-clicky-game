@@ -4,7 +4,8 @@ const styles = {
     jumbotron: {
         textAlign: "center",
         color: "black",
-        backgroundImage: "url('http://standardflags.com/shop/wp-content/uploads/2013/01/Nylon-American-Flag-closeup-1.jpg')"
+        backgroundImage: "url('http://standardflags.com/shop/wp-content/uploads/2013/01/Nylon-American-Flag-closeup-1.jpg')",
+        backgroundSize: "100% 100%"
       }
   };
 
