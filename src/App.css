@@ -31,3 +31,9 @@
     transform: rotate(360deg);
   }
 }
+@media (max-width:992px) {
+	.container {
+    width: 100%;
+    background-color: red;
+	}
+}
