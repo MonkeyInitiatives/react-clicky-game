@@ -11,9 +11,11 @@ const styles = {
     container:{
         paddingTop: "50px",
         paddingBottom: "50px",
+        paddingLeft: "0px",
+        paddingRight: "0px",
         display: "flex",
         flexWrap: "wrap",
-        margin: "0 auto",
+        margin: "0",
         justifyContent: "center",
     }
 };
